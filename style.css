@@ -1,0 +1,142 @@
+body{
+    background-color: white;
+    font-family: 'Comic Sans MS';
+
+}
+
+.absolutep {
+    position: absolute;
+}
+
+li {
+    display: inline;
+    float: right;
+}
+
+.home {
+    background-image: url("ibackgroung.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    padding-top: 3cm;
+    padding-bottom: 7cm;
+    margin-top: 0.1cm;
+}
+
+.white {
+    color: white;
+}
+
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #008cba;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.button_link {
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover {
+    background-color: #023e52;
+    color: black;
+}
+
+.button {
+    border: none;
+    color: orange;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background:none;
+    
+    border: 2px solid orange;
+}
+
+.button:hover {
+    background-color: white;
+    color: orange;
+    border: 2px solid orange;
+}
+
+#contact {
+    text-align: center;
+    text-decoration: underline;
+}
+.input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    border: 1px solid #ccc;
+}
+
+.submitbtn {
+    border: 1px solid #008cba;
+    background-color: #008cba;
+    color: white;
+    padding: 12px 30px;
+    text-align: center;
+    border-radius: 4px;
+    margin: auto;
+    display: block;
+}
+
+input[type=submit]:hover {
+    background-color: #023e52;
+}
+form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    align-self: center;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.abouth2 {
+    text-align: center;
+}
+
+.aboutp {
+    margin-left: 450px;
+}
+
+.aboutimg {
+    width: 400px;
+    position: absolute;
+}
+
+.about {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.im2 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
